@@ -17,13 +17,13 @@ def twoSum2(nums,target):
             if x != y:
                 return [x,y]
                 '''
-				if x == y: 
-					continue # 同样的数字不能重复用，所以这里如果是一样的数字，那么就不满足条件，跳过
-				else: # 否则就返回结果
-					return x,y 
-					break
-			else: 
-				continue # 上面的条件都不满足就跳过，进行下一次循环
+		if x == y: 
+		    continue # 同样的数字不能重复用，所以这里如果是一样的数字，那么就不满足条件，跳过
+		else: # 否则就返回结果
+		    return x,y 
+		    break
+	else: 
+	    continue # 上面的条件都不满足就跳过，进行下一次循环
             '''
 print(twoSum2([2,2,6,7,11,15],4))
 
